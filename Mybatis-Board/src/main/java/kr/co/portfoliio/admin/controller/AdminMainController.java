@@ -13,7 +13,7 @@ import lombok.extern.java.Log;
 @Log
 @Controller
 @RequestMapping(value= "/admin")
-public class AdminMaiinController {
+public class AdminMainController {
 
 	@GetMapping(value= {"","/"})
 	public String MainPage() {
